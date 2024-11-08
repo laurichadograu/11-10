@@ -58,6 +58,7 @@ span {
     font-weight: bold;
     color: var(--cor-secundaria)
 }
+
 footer{
     display: flex;
     align-items: center;
