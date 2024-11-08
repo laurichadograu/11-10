@@ -7,33 +7,34 @@
     --font: "Sixtyfour Convergence", sans-serif;
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: var(--font);
 }
 
-header{
+header {
     background-color: var(--cor-secundaria);
-    text-align: center;`
+    text-align: center;
+    padding: 1px;
 }
 
-h1{
+h1 {
     font-size: 2rem;
     color: var(--cor-texto);
     font-weight: 700;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: var(--cor-texto);
-    margin: 0 2rem 1rem 0;
+    margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
 
@@ -56,7 +57,7 @@ nav a:hover {
 
 span {
     font-weight: bold;
-    color: var(--cor-secundaria)
+    color: var(--cor-secundaria);
 }
 
 footer{
